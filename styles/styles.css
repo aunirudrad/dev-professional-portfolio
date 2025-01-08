@@ -1,0 +1,119 @@
+/* reset the page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* font initialize */
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* color initialize */
+.dark-2{
+    color: #474747;
+}
+.dark-1{
+    color: #181818;
+}
+.dark-3{
+    color: #757575;
+}
+
+
+/* primary button style */
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 18px 35px 19px 36px;
+    border-style: none;
+}
+
+
+/* Header background styling */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url("../images/developer.png"), url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    /* padding-left: 27px; */
+    /* max-width: 1600px; */
+    /* max-height: 837px; */
+    background-position: 25px 27px, bottom right;
+}
+
+
+/* nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px 0px 200px;
+    padding-top: 51px;
+}
+/* nav-title */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+
+}
+/* nav title letter color */
+.nav-letter-color{
+    color: #FD6E0A;
+}
+
+/* list items styling and decoration*/
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styling */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 34px 0 200px;
+}
+.banner-content{
+    /* padding: 259px 781px 184px 234px; */
+    max-width: 585px;
+    margin-top: 185px;
+}
+.banner-subtitle{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.banner-content-pic{
+    max-width: 584px;
+    margin-top: 47px;
+
+}
