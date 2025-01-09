@@ -40,6 +40,7 @@
     border-radius: 5px;
     padding: 18px 35px 19px 36px;
     border-style: none;
+    cursor: pointer;
 }
 
 /* section title and sub styles*/
