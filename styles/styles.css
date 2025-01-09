@@ -27,7 +27,7 @@
 
 /* background color initialize */
 .primary-color-bg{
-    color: #FFF8F3;
+    background-color: #FFF8F3;
 }
 
 
@@ -275,4 +275,38 @@ nav li a{
 .resume-download-btn{
     margin-top: 50px;
     text-align: center;
+}
+
+/* footer styling */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 120px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.footer-title{
+    margin-bottom: 20px;
+}
+.footer_description{
+    margin-bottom: 30px;
+}
+footer img{
+    margin-right: 20px;
+} 
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    width: 100%;
+    background-color: white;
+    color: #757575;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 24px 0;
+    padding: 10px 20px;
 }
