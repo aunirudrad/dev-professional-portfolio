@@ -53,6 +53,7 @@
 }
 
 
+
 /* Header background styling */
 
 .header{
@@ -196,12 +197,15 @@ nav li a{
 
 .skills-lists{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .skills-list{
     margin-right: 24px;
     max-width: 267px;
     padding: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0  rgba(0, 0, 0, 0.06);
 }
 .img-block{
     display: block;
@@ -220,4 +224,55 @@ nav li a{
 .skills-set-description{
     font-size: 16px;
     font-weight: 400;
+}
+
+/* resume section styling */
+
+.resume-container{
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+.resume{
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+}
+
+.resume-title{
+    margin-bottom: 113px;
+    text-align: center;
+}
+
+.resume-contents-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #474747;
+}
+
+
+.resume-experience{
+    margin: 30px 47px 30px 0px;
+    max-width: 511px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.experience-time{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.experience-description{
+    color: #757575;
+}
+
+.resume-download-btn{
+    margin-top: 50px;
+    text-align: center;
 }
