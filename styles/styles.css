@@ -25,6 +25,11 @@
     color: #757575;
 }
 
+/* background color initialize */
+.primary-color-bg{
+    color: #FFF8F3;
+}
+
 
 /* primary button style */
 .btn-primary{
@@ -35,6 +40,15 @@
     border-radius: 5px;
     padding: 18px 35px 19px 36px;
     border-style: none;
+}
+
+/* section title and sub styles*/
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    font-size: 18px;
 }
 
 
@@ -116,4 +130,38 @@ nav li a{
     max-width: 584px;
     margin-top: 47px;
 
+}
+
+/* about section */
+
+.about-container{
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    margin: 130px auto;
+    border-radius: 10px;
+}
+
+.about{
+    padding: 131px 156px;
+    text-align: center;
+}
+
+.about-title{
+    margin-bottom: 30px;
+}
+
+.about-infos{
+    display: flex;
+    justify-content: space-between;
+}
+.about-infos{
+    text-align: center;
+    margin-top: 30px;
+}
+.about-info-title{
+    font-size: 20px;
+}
+.about-info-description{
+    font-size: 20px;
+    font-weight: bold;
 }
